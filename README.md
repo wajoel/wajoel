@@ -1,7 +1,4 @@
-## Joel Mande
-### Data & Actuarial Analyst  
-
-💡 Passionate about **risk modeling, predictive analytics, and financial forecasting**, with expertise in **actuarial science, statistical modeling, and data-driven decision-making**.  
+ 💡 Passionate about **risk modeling, predictive analytics, and financial forecasting**, with expertise in **actuarial science, statistical modeling, and data-driven decision-making**.  
 
 ### 🔍 Technical Proficiency  
 - **Programming:** R, Python, SQL, MySQL, SAS, MATLAB, Excel  
