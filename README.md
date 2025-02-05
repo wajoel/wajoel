@@ -9,6 +9,7 @@
 ✔ Time series forecasting – Volatility modeling, risk assessment  
 ✔ Machine learning – Predictive modeling, survival analysis  
 ✔ Data visualization – Communicating insights effectively  
+✔ Web Applications & Dashboards – Interactive data-driven solutions
 ### 🏆 Achievements & Recognitions
 - Recognized for contributions in risk analytics and predictive modeling
 - Successfully led 10+ data science projects in financial and actuarial domains  
