@@ -1,7 +1,7 @@
  💡 Passionate about **risk modeling, predictive analytics, and financial forecasting**, with expertise in **actuarial science, statistical modeling, and data-driven decision-making**.  
 
 ### 🔍 Technical Proficiency  
-- **Programming:** R, Python, SQL, MySQL, SAS, MATLAB, Excel  
+- **Programming:** R, Python, SQL, MySQL, SAS, MATLAB, Excel, Git & GitHub
 - **Data Visualization:** Power BI, ggplot2, Tableau  
 
 ### 📊 Key Areas of Expertise  
