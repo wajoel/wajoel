@@ -1,281 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="files/css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joel Mande</title>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-<header class="l-header">
-    <nav class="nav bd-grid">
-        <div>
-            <a href="#" class="nav__logo">Joel</a>
-        </div>
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-            </ul>
-        </div>
+  <!-- 
+    - google font link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu'></i>
-        </div>
-    </nav>
-</header>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
 
-<main class="l-main">
-    <!--===== HOME =====-->
-    <section class="home bd-grid" id="home">
-        <div class="home__data">
-            <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Joel Mande</span><br> Data Analyst</h1>
+<body id="top">
 
-            <!-- Contact Button -->
-            <!-- <a href="#contact" class="button">Contact</a> -->
+  <!-- 
+    - #HEADER
+  -->
 
-            <!-- Download CV Button -->
-            <a href="files/wajoel_cv.pdf" class="button" download>Download CV</a>
-        </div>
+  <header class="header" data-header>
+    <div class="container">
+    
+      <a href="#"></a>
+        <h1 class="logo"><span class="l">J</span>oel</h1>
+      </a>
 
-        <div class="home__social">
-            <!-- <a href="https://www.linkedin.com/in/yourlinkedin" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.behance.net/yourbehance" class="home__social-icon" target="_blank"><i class='bx bxl-behance' ></i></a>
-            <a href="https://github.com/yourgithub" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a> -->
-        </div>
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
 
-        <div class="home__img">
+      <nav class="navbar container">
+        <ul class="navbar-list">
 
-                    <img src="files/image/about.png" alt="Your image">
-                
-            <!-- <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <mask id="mask0" mask-type="alpha">
-                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                </mask>
-                <g mask="url(#mask0)">
-                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                    <image class="home__blob-img" x="50" y="60" href="files/image/peril.png"></image>
-                </g>
-            </svg> -->
-        </div>
-    </section>
-</main>
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
 
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
 
-            <!--===== ABOUT =====-->
-<section class="about section " id="about">
-    <h2 class="section-title">About</h2>
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Projects</a>
+          </li>
 
-    <div class="about__container bd-grid">
-        <div class="about__img">
-            <!-- <img src="files/image/about.png" alt="Your image"> -->
-        </div>
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
 
-        <div>
-            <h2 class="about__subtitle"> </h2>
-            <p class="about__text">
-                I am a passionate data scientist and actuary with expertise in data analysis, statistical modeling, and actuarial science. I have a strong background in building predictive models, analyzing trends, and providing actionable insights for business optimization. I am proficient in tools like R, Python, SQL, Power BI, and Excel, and I am always eager to apply my knowledge to solve complex problems.
-                <br><br>
-                My work revolves around helping organizations make data-driven decisions, particularly in areas like risk modeling, financial forecasting, and actuarial analysis. With a <strong> B.Sc,. Statistics & Actuarial Science from Dedan Kimathi University of Technology</strong>, I bring a blend of technical expertise and analytical thinking to every project I undertake.
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
 
-                <br><br>
-                When I’m not analyzing data, I’m mentoring students in data science and actuarial fields, helping them build practical skills that set them up for success in their careers.
-            </p>
-        </div>                                   
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="assets/resume/wajoel_cv.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+          </li>
+
+          <!-- <li>
+            <a href="https://gathuh.github.io/gathuportfolio/" class="btn btn-primary" data-nav-link target="_blank">Portfolio Website</a>
+          </li> -->
+
+        </ul>
+      </nav>
+
     </div>
-</section>
+  </header>
 
 
-            <!--===== SKILLS =====-->
-<section class="skills section" id="skills">
-    <h2 class="section-title">Skills</h2>
 
-    <div class="skills__container bd-grid">
-        <div>
-            <h2 class="skills__subtitle"> </h2>
-            <p class="skills__text">Skilled in data analysis, statistical modeling, and creating interactive dashboards. Proficient with multiple tools to deliver actionable insights and optimize business processes.</p>
-            <div class="skills__data">
-                <div class="skills__names">
-                    <i class='bx bxl-python skills__icon'></i>
-                    <span class="skills__name">Python</span>
-                </div>
-                <div class="skills__bar skills__python"></div>
-                <div>
-                    <span class="skills__percentage">90%</span>
-                </div>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/wajoel_photo.png" width="800" height="864" loading="lazy" alt="Gathu's Photo"
+              class="img-cover">
+
+            --<div class="elem elem-1">
+              <p class="elem-title">4</p>
+
+              <p class="elem-text">Years of Success</p>
             </div>
-            <div class="skills__data">
-                <div class="skills__names">
-                    <i class='bx bxl-r skills__icon'></i>
-                    <span class="skills__name">R</span>
-                </div>
-                <div class="skills__bar skills__r"></div>
-                <div>
-                    <span class="skills__percentage">85%</span>
-                </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">10+</p>
+
+              <p class="elem-text">Projects Completed</p>
             </div>
-            <div class="skills__data">
-                <div class="skills__names">
-                    <i class='bx bxl-sql skills__icon'></i>
-                    <span class="skills__name">SQL</span>
-                </div>
-                <div class="skills__bar skills__sql"></div>
-                <div>
-                    <span class="skills__percentage">80%</span>
-                </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
             </div>
-            <div class="skills__data">
-                <div class="skills__names">
-                    <i class='bx bxl-power-bi skills__icon'></i>
-                    <span class="skills__name">Power BI</span>
-                </div>
-                <div class="skills__bar skills__powerbi"></div>
-                <div>
-                    <span class="skills__percentage">75%</span>
-                </div>
+
+           
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Joel Mande</strong> Statistician | Actuarial Analyst
+            </h2>
+
+            <p class="hero-text">
+              
+              Statistics, Mathematics, Programming, Actuarial Science, Data Science, Data & Business Analytics, Big Data, Machine Learning, Artificial Intelligence, Finance, Economics, Insurance, Pensions, and Investment.
+
+            </p>
+
+            <div class="btn-group">
+              <!-- <a href="#contact" class="btn btn-primary blue">Contact Me</a>
+
+              <a href="#about" class="btn">About Me</a> -->
             </div>
-            <div class="skills__data">
-                <div class="skills__names">
-                    <i class='bx bxl-gg-circle skills__icon'></i>
-                    <span class="skills__name">Excel</span>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        
+        <div class="container">
+           
+          <figure class="about-banner">
+
+            <img src="./assets/images/wajoel_photo.png" width="800" height="652" loading="lazy" alt="Image"
+              class="img-cover">
+
+            <!-- <img src="./assets/images/m" width="800" height="717" loading="lazy" alt="image"
+              class="abs-img"> -->
+
+              <div class="abs-icon abs-icon-1">
+                <i class="fab fa-python"></i> <!-- Python -->
+              </div>
+              
+              <div class="abs-icon abs-icon-2">
+                <i class="fab fa-r-project"></i> <!-- R -->
+              </div>
+              
+              <div class="abs-icon abs-icon-3">
+                <i class="fas fa-database"></i> <!-- Database -->
+              </div>
+              
+              <div class="abs-icon abs-icon-4">
+                <i class="fab fa-git-alt"></i> <!-- Git -->
+              </div>
+              
+              <div class="abs-icon abs-icon-5">
+                <i class="fab fa-jupyter"></i> <!-- Jupyter Notebook -->
+              </div>
+              
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Me</p>
+
+           
+                <h2 class="h2 section-title"> </h2>
+
+                <p class="section-text">
+                  Statistics and Actuarial science graduate, currently awaiting formal certification, with expertise in statistical modeling,
+                  predictive analytics, and financial risk management, particularly in real-world financial applications.
+                </p>
+                <p class="section-text">
+                  Expert in developing data-driven solutions that provide actionable insights, enhance strategic
+                  decision-making, and mitigate financial risks, leading to improved business performance and risk
+                  management strategies
+                </p>
+                <p class="section-text">
+                  Member of the Actuarial Society, contributing to the development of actuarial practices and advancing
+                  professional standards within the field.
+                </p>
+
+
+            <a href="#portfolio" class="btn btn-primary blue">View Projects</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Projects</p>
+
+          <h2 class="h2 section-title"></h2>
+
+          <p class="section-text">
+           
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+             
+              <a href="https://github.com/wajoel/credit-risk-model" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg');" target="_blank">
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Credit Risk Modeling</p>
+
+                  <h3 class="h3 card-title">A statistical model using logistic regression, decision trees, and random forests to assess default probability.</h3>
+
+                  <span class="btn-link">
+                    <span>View on GitHub</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
                 </div>
-                <div class="skills__bar skills__excel"></div>
-                <div>
-                    <span class="skills__percentage">95%</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/wajoel/customer-segmentation-usa" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')" target="_blank">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Customer Segmentation</p>
+
+                  <h3 class="h3 card-title">A clustering model using K-means, hierarchical clustering, and PCA in R to segment customers based on behavioral patterns.</h3>
+
+                  <span class="btn-link">
+                    <span>View on GitHub</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
+              </a>
+            </li>
 
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+            <li>
+              <a href="https://github.com/wajoel/forecasting-stocks" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')" target="_blank">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Stock Price Prediction</p>
+
+                  <h3 class="h3 card-title">A time series model using ARIMA, LSTM, and XGBoost in R to forecast stock prices.</h3>
+
+                  <span class="btn-link">
+                    <span>View on GitHub</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
                 </div>
-            </section>
+              </a>
+            </li>
 
-            <!--===== WORK =====-->
-<section class="work section" id="work">
-    <h2 class="section-title">Work</h2>
+            <li>
+              <a href="https://github.com/wajoel/claims-fraud-detection" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')" target="_blank">
+                <div class="card-content">
 
-    <div class="work__container bd-grid">
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Customer-Segmentation" class="work__img">
-                <img src="files/image/project1.jfif" alt="Project 1">
-            </a>
-            <h3 class="work__title">Project 1: Customer Segmentation Analysis</h3>
-            <p class="work__description">
-                Built a customer segmentation model using clustering techniques to group banking customers. Utilized Python (scikit-learn, pandas) and R for data preprocessing and analysis. This project showcases my ability to apply machine learning models and analyze customer behavior.
-            </p>
-            <a href="https://github.com/wajoel/Customer-Segmentation" class="work__repo-link" target="_blank">View on GitHub</a>
+                  <p class="card-subtitle">Claims Fraud Detection</p>
+
+                  <h3 class="h3 card-title">A machine learning model using logistic regression, random forests, and XGBoost in R to identify fraudulent insurance claims.</h3>
+
+                  <span class="btn-link">
+                    <span>View on GitHub<span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
         </div>
+      </section>
 
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Forecasting-Stocks" class="work__img">
-                <img src="files/image/project2.jfif" alt="Project 2">
-            </a>
-            <h3 class="work__title">Project 2: Forecasting Stock Prices</h3>
-            <p class="work__description">
-                Developed a time-series forecasting model to predict stock prices using ARIMA and LSTM models. Demonstrates my experience in financial data analysis and predictive modeling using R and Python. 
-            </p>
-            <a href="https://github.com/wajoel/Forecasting-Stocks" class="work__repo-link" target="_blank">View on GitHub</a>
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">Technical Skills</p>
+
+          <h2 class="h2 section-title"></h2>
+
+          <p class="section-text">
+           
+          </p>
+
+          <ul class="skills-list">
+
+            
+            <li class="skills-item">
+              <div class="wrapper" ">
+                <h3 class="skills-title">R</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+          
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" </data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">HTML</h3>
+
+                <data class="skills-data" </data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">CSS</h3>
+
+                <data class="skills-data" </data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" ">
+                <h3 class="skills-title">Power Bi</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" ">
+                <h3 class="skills-title">SQL</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" ">
+                <h3 class="skills-title">Excel</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" ">
+                <h3 class="skills-title">Matlab</h3>
+
+                <data class="skills-data"</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+          </ul>
+
         </div>
-
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Claims-Fraud-Detection" class="work__img">
-                <img src="files/image/project3.webp" alt="Project 3">
-            </a>
-            <h3 class="work__title">Project 3: Claims Fraud Detection</h3>
-            <p class="work__description">
-                Applied machine learning techniques to detect fraudulent claims in insurance datasets. Built classification models using Python (pandas, scikit-learn) to identify anomalies in claims data. This project highlights my skills in fraud detection and classification modeling.
-            </p>
-            <a href="https://github.com/wajoel/Claims-Fraud-Detection" class="work__repo-link" target="_blank">View on GitHub</a>
-        </div>
-
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Portfolio-Optimization" class="work__img">
-                <img src="files/image/project4.jfif" alt="Project 4">
-            </a>
-            <h3 class="work__title">Project 4: Portfolio Optimization using Python</h3>
-            <p class="work__description">
-                Implemented a portfolio optimization model to maximize returns while minimizing risk using historical stock data. This project demonstrates my expertise in quantitative finance and optimization techniques using Python (NumPy, pandas).
-            </p>
-            <a href="https://github.com/wajoel/Portfolio-Optimization" class="work__repo-link" target="_blank">View on GitHub</a>
-        </div>
-
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Actuarial-Dashboard" class="work__img">
-                <img src="files/image/project5.jfif" alt="Project 5">
-            </a>
-            <h3 class="work__title">Project 5: Actuarial Reserving using R</h3>
-            <p class="work__description">
-                Developed an actuarial reserving model for estimating the reserve amount needed to cover future claims. Used R for statistical analysis and developed a Shiny app for visualization. This project showcases my actuarial skills and familiarity with actuarial software.
-            </p>
-            <a href="https://github.com/wajoel/Actuarial-Dashboard" class="work__repo-link" target="_blank">View on GitHub</a>
-        </div>
-
-        <div class="work__project">
-            <a href="https://github.com/wajoel/Mortality-Table-Analysis" class="work__img">
-                <img src="files/image/project6.jfif" alt="Project 6">
-            </a>
-            <h3 class="work__title">Project 6: Mortality Rate Calculator App (R Shiny)</h3>
-            <p class="work__description">
-                Built an interactive web application using R Shiny to calculate mortality rates based on user input. This project emphasizes my ability to develop web-based actuarial tools and apply statistical concepts in an interactive manner.
-            </p>
-            <a href="https://github.com/wajoel/project6" class="work__repo-link" target="_blank">View on GitHub</a>
-        </div>
-    </div>
-</section>
+      </section>
 
 
-            <!--===== CONTACT =====-->
-<section class="contact section" id="contact">
-    <h2 class="section-title">Contact</h2>
 
-    <div class="contact__container bd-grid">
-        <form action="your-form-processing-script.php" method="POST" class="contact__form">
-            <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
-            <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
-            <textarea name="message" placeholder="Your Message" cols="30" rows="10" class="contact__input" required></textarea>
-            <input type="submit" value="Send Message" class="contact__button button">
+<!-- 
+  - #CONTACT
+-->
+<!-- <section class="section skills" id="skills">
+  <div class="container">
+
+    <p class="section-subtitle">Technical Skills</p>
+
+    <h2 class="h2 section-title"></h2>
+
+    <p class="section-text">
+     
+    </p> -->
+<section class="section contact" id="contact">
+  
+  <div class="container">
+    <p class="section-subtitle">Contact Me</p>
+    <div class="contact-card">
+
+      <p class="card-subtitle"> </p>
+
+      <h2 class="h2 section-title"></h2>
+
+      <div class="wrapper">
+
+        <form action="" class="contact-form">
+
+          <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+          <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+          <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+          <button type="submit" class="btn-submit">Submit Message</button>
+
         </form>
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">Address</h3>
+
+              <address class="contact-item-link">
+                10100, Nyeri, Kenya
+              </address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">Email</h3>
+
+              <a href="mailto:joel.mande1936@gmail.com" class="contact-item-link">joel.mande1936@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">Phone</h3>
+
+              <a href="tel:+254796895403" class="contact-item-link">+254796895403</a>
+            </div>
+
+          </li>
+
+          <!-- Add LinkedIn -->
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">LinkedIn</h3>
+
+              <a href="https://www.linkedin.com/in/wajoel/" target="_blank" class="contact-item-link">LinkedIn Profile</a>
+            </div>
+
+          </li>
+
+          <!-- Add GitHub -->
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">GitHub</h3>
+
+              <a href="https://github.com/wajoel" target="_blank" class="contact-item-link">GitHub Profile</a>
+            </div>
+
+          </li>
+
+          <!-- Add WhatsApp -->
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">WhatsApp</h3>
+
+              <a href="https://wa.me/254796895403" target="_blank" class="contact-item-link">Chat on WhatsApp</a>
+            </div>
+
+          </li>
+
+          <!-- Add X (Twitter) -->
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+
+            <div>
+              <h3 class="contact-item-title">X (Twitter)</h3>
+
+              <a href="https://x.com/RDekut/status/JoeCastro8873" target="_blank" class="contact-item-link">Twitter Profile</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
     </div>
+
+  </div>
 </section>
 
-        </main>
 
-        <!--===== FOOTER =====-->
-<footer class="footer">
-    <p class="footer__title"> </p>
-    <div class="footer__social">
-        <a href="https://www.facebook.com/Castro Joe" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-        <a href="https://www.youtube.com/@joel_450" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
-        <a href="https://x.com/JoeCastro8873" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-        <a href="https://wa.me/254719526107" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
-        <a href="https://www.linkedin.com/in/wajoel" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-        <a href="https://www.behance.net/wajoel" class="footer__icon" target="_blank"><i class='bx bxl-behance' ></i></a>
-        <a href="https://github.com/wajoel" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2025 <a href="#" class="copyright-link">Joel Mande</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
     </div>
-    <p class="footer__copy">&#169; JM all Rights Reserved</p>
-</footer>
+  </footer>
 
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="files/js/main.js"></script>
-    </body>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
