@@ -1,36 +1,29 @@
-### Hi there, I'm [Your Name] 👋
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Joel;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
+</p
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Actuary+%7C+Data+Scientist+%7C+Financial+Risk+Analyst&color=F7DF1E&center=true&width=600)
 
----
+## <p align="center"> GitHub Stats</p>
 
-### 🔥 Stats & Activity Graph  
-![GitHub Streak](https://streak-stats.demolab.com/?user=wajoel&theme=highcontrast)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wajoel&show_icons=true&theme=radical)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wajoel&theme=react)
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=wajoel&show_icons=true&theme=graywhite" alt="GitHub Stats" />
+      </td>
+      <td width="50%">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=wajoel&theme=graywhite" alt="GitHub Streak" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajoel&layout=compact&theme=graywhite" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+</div>
 
----
 
-### 🚀 Tech Stack & Tools  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-
----
-
-### 🏆 GitHub Contributions Snake 🐍
-![snake gif](https://github.com/wajoel/wajoel/blob/output/github-contribution-grid-snake.svg)
-
----
-
-### 📊 Profile Visitors Count  
-![Visitors](https://komarev.com/ghpvc/?username=wajoel&color=blue)
-
----
-
-### 📫 Connect with me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourlinkedin/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wajoel/)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=wajoel&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
+</p>
