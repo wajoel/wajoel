@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Joel;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Joel;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
 </p
 
 
-## <p align="center"> GitHub Stats</p>
+## <p align="center"> **GitHub Stats**</p>
 
 <div align="center">
   <table>
