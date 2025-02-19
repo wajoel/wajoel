@@ -3,7 +3,7 @@
 </p>
 
 
-## <p align="center"> **GitHub Stats**</p>
+<p align="center"> GitHub Stats </p>
 <div align="center">
   <table>
     <tr>
